@@ -22,7 +22,7 @@ const Wishes = () => {
       
       {/* 🎂 Birthday Cake */}
       <img
-        src="/images/cake.png"   // ✅ place cake.png inside public/images/
+        src="/birthdaycard/images/cake.png"   // ✅ place cake.png inside public/images/
         alt="Birthday Cake"
         className="w-40 h-40 mb-4 animate-bounce"
       />

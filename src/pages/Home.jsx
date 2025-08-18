@@ -41,7 +41,7 @@ const Home = () => {
   const audioRef = useRef(null);
   const toggleMusic = () => {
     if (!audioRef.current) {
-      audioRef.current = new Audio("/images/birthday-music.mp3"); // put mp3 in public/images
+      audioRef.current = new Audio("/birthdaycard/images/birthday-music.mp3"); // put mp3 in public/images
       audioRef.current.loop = true;
     }
 

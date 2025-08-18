@@ -5,17 +5,20 @@ import Confetti from "react-confetti";
 // Images + Wishes
 const galleryImages = [
   {
-  src: "/images/image1.jpg",
+  src: "/birthdaycard/images/image1.jpg",
+    alt: "Birthday celebration with cake and decorations",
    message: "Wishing you all the happiness in the world!",
     desc: "This is your special day 💖",
   },
   {
-    src: "/images/image2.png",
+    src: "/birthdaycard/images/image2.png",
+      alt: "Colorful balloons and birthday wishes",
     message: "May your day be filled with love and joy!",
     desc: "Hope this year brings endless smiles 🌸",
   },
   {
-    src: "/images/image3.jpg",
+    src: "/birthdaycard/images/image3.jpg",
+     alt: "Birthday candles lit on a cake",
     message: "Happy Birthday! You deserve the best!",
     desc: "Keep shining bright like the star you are ✨",
   },
