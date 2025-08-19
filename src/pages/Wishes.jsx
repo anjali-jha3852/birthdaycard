@@ -5,7 +5,7 @@ const Wishes = () => {
   const [wishes, setWishes] = useState([]);
 
   const playSound = () => {
-    const audio = new Audio("/images/popup.mp3"); // ✅ put popup.mp3 in public/images
+    const audio = new Audio("/birthdaycard/images/popup.mp3"); // ✅ put popup.mp3 in public/images
     audio.play();
   };
 
